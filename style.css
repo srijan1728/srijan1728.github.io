@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    background-color: white;
+    color: black;
+
+    font-family: "Times New Roman", Times, serif;
+    font-size: 22px;
+    line-height: 1.15;
+}
+
+.container {
+    width: 86%;
+    margin: 0 auto;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 44px;
+    margin-top: 6px;
+    margin-bottom: 30px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #999;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 14px 0;
+}
+
+nav a {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+main {
+    margin-top: 23px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 22px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-top: 28px;
+    margin-bottom: 25px;
+}
+
+.contact {
+    border-collapse: collapse;
+    font-size: 22px;
+}
+
+.contact td {
+    padding: 2px 0;
+    vertical-align: top;
+}
+
+.contact td:first-child {
+    width: 155px;
+}
+
+.bottom-line {
+    margin-top: 18px;
+    margin-bottom: 25px;
+}
+
+a {
+    color: #0000ee;
+}
+
+a:visited {
+    color: #551a8b;
+}
+
+
+/* Mobile version */
+
+@media (max-width: 800px) {
+
+    body {
+        font-size: 18px;
+    }
+
+    .container {
+        width: 92%;
+    }
+
+    header h1 {
+        font-size: 34px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        gap: 15px 30px;
+    }
+
+    nav a {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .contact {
+        font-size: 18px;
+    }
+
+    .contact td:first-child {
+        width: 120px;
+    }
+}
