@@ -118,3 +118,15 @@ a:visited {
         width: 120px;
     }
 }
+.publications {
+    padding-left: 45px;
+}
+
+.publications li {
+    padding-left: 5px;
+    margin-bottom: 22px;
+}
+
+.blog-note {
+    margin-top: 35px;
+}
