@@ -130,3 +130,21 @@ a:visited {
 .blog-note {
     margin-top: 35px;
 }
+
+.teaching-list,
+.seminar-list {
+    padding-left: 45px;
+}
+
+.teaching-list li,
+.seminar-list li {
+    margin-bottom: 14px;
+}
+
+main h2 {
+    margin-top: 28px;
+}
+
+.seminar-organizing {
+    margin-top: 45px;
+}
